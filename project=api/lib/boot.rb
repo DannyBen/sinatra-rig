@@ -11,6 +11,7 @@ else
   Bundler.require :default, :development
   require "sinatra/reloader"
   also_reload "#{root_dir}/lib/**/*.rb"
+  also_reload "#{root_dir}/routes/**/*.rb"
 end
 
 # Configure Sinatra

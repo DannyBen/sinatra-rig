@@ -11,7 +11,7 @@ Bundler.require :default, :development
 require 'rack/test'
 ENV['RACK_ENV'] = 'test'
 
-require File.expand_path '../server.rb', __dir__
+require File.expand_path '../app.rb', __dir__
 
 # Bootstrap Sinatra testing with rspec
 module RSpecMixin

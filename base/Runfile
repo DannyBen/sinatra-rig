@@ -6,7 +6,7 @@ summary "A baseline for Sinatra apps"
 
 help   "Start the server"
 action :server, :s do
-  run 'ruby server.rb'
+  run 'ruby app.rb'
 end
 
 help   "Start an IRB console"
