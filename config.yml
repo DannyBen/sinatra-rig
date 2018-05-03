@@ -1,0 +1,7 @@
+intro: Sinatra Baseline with many goodies
+
+after:
+  "Create .gitignore": mv _gitignore .gitignore
+  "Run bundle": bundle
+  "Initialize git": git init
+

@@ -1,0 +1,37 @@
+* {
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+  color: #383;
+  &:hover {
+    color: #141;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  th {
+    text-align: left;
+  }
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background: #ddd;
+  padding: 20px;
+}
+
+main {
+  margin-bottom: 100px;
+}
+

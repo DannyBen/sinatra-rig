@@ -1,0 +1,29 @@
+* {
+  font-family: arial; }
+
+a {
+  text-decoration: none;
+  color: #383; }
+  a:hover {
+    color: #141; }
+
+table {
+  border-collapse: collapse; }
+  table td, table th {
+    padding: 10px;
+    border: 1px solid #ccc; }
+  table th {
+    text-align: left; }
+
+body {
+  max-width: 800px;
+  margin: 0 auto; }
+
+header {
+  background: #ddd;
+  padding: 20px; }
+
+main {
+  margin-bottom: 100px; }
+
+/*# sourceMappingURL=main.css.map */
