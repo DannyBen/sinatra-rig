@@ -12,3 +12,12 @@ gem "slim"
 gem "puma"
 gem "sass"
 gem "rack-coffee"
+
+group :development do
+  gem "byebug"
+  gem "rack-test"
+  gem "rspec"
+  gem "rspec-html-matchers"
+  gem "simplecov"
+  gem "runfile-tasks"
+end

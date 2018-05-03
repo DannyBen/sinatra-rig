@@ -13,6 +13,7 @@ In the Box
 - SCSS
 - CoffeeScript
 - jQuery
+- Rspec
 - Vagrant compatibility
 - Auto reloading
 - Interactive IRB Console
