@@ -4,3 +4,8 @@ after:
   "Create .gitignore": mv _gitignore .gitignore
   "Run bundle": bundle
 
+params:
+  project:
+    prompt: "Select project type:"
+    type: select
+    list: [web, api]
