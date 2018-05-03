@@ -9,7 +9,7 @@ needs.
 Usage
 --------------------------------------------------
 
-    $ rig install git@github.com:DannyBen/gem-rig.git
+    $ rig install git@github.com:DannyBen/sinatra-rig.git
     $ mkdir myapp && cd myapp
     $ rig build sinatra
 
